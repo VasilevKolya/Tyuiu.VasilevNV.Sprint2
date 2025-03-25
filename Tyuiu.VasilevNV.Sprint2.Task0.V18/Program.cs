@@ -6,7 +6,7 @@ using System;
     {
         DataService ds = new DataService();
 
-        int x = 5175;
+        int x = 5105;
         int y = 475;
         bool[] res = new bool[6];
         res = ds.GetCompareOperations(x, y);
