@@ -8,23 +8,23 @@ namespace Tyuiu.VasilevNV.Sprint2.Task5.V5.Lib
             switch (value)
             {
                 case 6:
-                    return "Шестерка";
+                    return "шестерка";
                 case 7:
-                    return "Семерка";
+                    return "семерка";
                 case 8:
-                    return "Восьмерка";
+                    return "восьмерка";
                 case 9:
-                    return "Девятка";
+                    return "девятка";
                 case 10:
-                    return "Десятка";
+                    return "десятка";
                 case 11:
-                    return "Валет";
+                    return "валет";
                 case 12:
-                    return "Дама";
+                    return "дама";
                 case 13:
-                    return "Король";
+                    return "король";
                 case 14:
-                    return "Туз";
+                    return "туз";
                 default:
                     throw new ArgumentException(nameof(value), "Номер карты должен быть в диапазоне 6-14");
             }
